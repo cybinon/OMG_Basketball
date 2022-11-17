@@ -212,6 +212,7 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: -9.04, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -302,6 +303,14 @@ PrefabInstance:
     - target: {fileID: 4459552045201515321, guid: 43425a9c45ff94961955ee8b8e9ce7bb, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015273922734659006, guid: 43425a9c45ff94961955ee8b8e9ce7bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015273922734659006, guid: 43425a9c45ff94961955ee8b8e9ce7bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.798
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43425a9c45ff94961955ee8b8e9ce7bb, type: 3}
@@ -394,6 +403,7 @@ Transform:
   m_LocalRotation: {x: 0.32556805, y: 0, z: 0, w: 0.9455186}
   m_LocalPosition: {x: 0, y: 16, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -483,6 +493,7 @@ Transform:
   m_LocalRotation: {x: -0.040175825, y: 0.12407699, z: 0.0050291233, w: 0.99144626}
   m_LocalPosition: {x: -1.806035, y: 1.771754, z: -3.3391836}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1995911436}
   m_RootOrder: 16
@@ -617,6 +628,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.8167725, z: -0.57695985, w: 0}
   m_LocalPosition: {x: 0, y: 10.356674, z: 7.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -700,6 +712,7 @@ Transform:
   m_LocalRotation: {x: 0.12632471, y: 0.48560756, z: -0.071158566, w: 0.8620695}
   m_LocalPosition: {x: -8.500614, y: 6.4566765, z: -2.3275952}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -783,6 +796,7 @@ Transform:
   m_LocalRotation: {x: 0.32556805, y: 0, z: 0, w: 0.9455186}
   m_LocalPosition: {x: 0, y: 16, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -918,10 +932,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
-    - target: {fileID: 1719800051772361079, guid: 1ee091a662ec14e588fdacbb9ba3e280, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 605a26f5be7754be9b7cf62e34c99899, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ee091a662ec14e588fdacbb9ba3e280, type: 3}
 --- !u!1001 &7360932404192396173
